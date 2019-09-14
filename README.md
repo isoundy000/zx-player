@@ -23,6 +23,8 @@
 ### 商务合作与赞赏
 ```
 1204505056@qq.com
+## Donate
+如果你觉得这个项目帮助到了你，你可以赞赏一下作者:
 ![donate](https://github.com/chuzhixin/donate/blob/master/qq.png)
 ![donate](https://github.com/chuzhixin/donate/blob/master/wx.png)
 ![donate](https://github.com/chuzhixin/donate/blob/master/zfb.png)
