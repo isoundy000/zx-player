@@ -14,7 +14,7 @@
 
 ## 实现功能
 ```
-1.实现了加密video的src
+1.实现了blob加密video的src
 2.实现了flv的html5播放
 3.实现了hls(m3u8)的html5播放
 
