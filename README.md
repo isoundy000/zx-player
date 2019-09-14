@@ -48,6 +48,7 @@ Vue.component('byui-player-flv', zxPlayer.flv)
 
 ```
 
+
 ### template完整示例
 ```
 <template>
@@ -99,3 +100,6 @@ body {
 
 ```
 
+ 
+ 
+ 
