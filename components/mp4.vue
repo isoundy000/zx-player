@@ -5,7 +5,7 @@
 <script>
 import Player from 'xgplayer';
 export default {
-	name: 'VueXgplayer',
+	name: 'mp4',
 	props: {
 		config: {
 			type: Object,

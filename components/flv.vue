@@ -7,7 +7,7 @@ import FlvPlayer from 'xgplayer-flv.js';
 import Player from 'xgplayer';
 
 export default {
-	name: 'ByuiPlayer',
+	name: 'flv',
 	props: {
 		config: {
 			type: Object,

@@ -7,7 +7,7 @@ import HlsJsPlayer from 'xgplayer-hls.js';
 import Player from 'xgplayer';
 
 export default {
-	name: 'ByuiPlayer',
+	name: 'hls',
 	props: {
 		config: {
 			type: Object,
