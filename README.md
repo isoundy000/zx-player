@@ -20,10 +20,12 @@
 
 ```
 
-### 商务合作
+### 商务合作与赞赏
 ```
 1204505056@qq.com
-
+![donate](https://github.com/chuzhixin/donate/blob/master/qq.png)
+![donate](https://github.com/chuzhixin/donate/blob/master/wx.png)
+![donate](https://github.com/chuzhixin/donate/blob/master/zfb.png)
 ```
 
 ## 安装方法
