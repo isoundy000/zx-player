@@ -1,4 +1,4 @@
-# zx-player(作者:chuzhixin<1204505056@qq.com>)
+# zx-player(作者:初志鑫<1204505056@qq.com>)
 
 ## 注意事项
 ```
