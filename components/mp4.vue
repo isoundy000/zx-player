@@ -28,6 +28,7 @@ export default {
 			player: null,
 			finalConfig: {
 				autoplay: true, //自动播放
+				loop:true,//循环播放
 				fluid: true, //流式布局
 				videoInit: true, //加载首屏
 				playbackRate: [0.5, 0.75, 1, 1.5, 2], //快进设置
@@ -61,6 +62,12 @@ export default {
 		init() {
 			this.finalConfig = Object.assign(this.finalConfig, this.config);
 			if (this.finalConfig.url && this.finalConfig.url !== '') {
+				let customPlugin = function(player) {
+					player.once('complete', () => {
+						player.replay();
+					});
+				};
+				Player.install('customPlugin', customPlugin);
 				this.player = new Player(this.finalConfig);
 				this.$emit('player', this.player);
 			}

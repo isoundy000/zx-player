@@ -27,6 +27,7 @@ export default {
 			player: null,
 			finalConfig: {
 				autoplay: true, //自动播放
+				loop:true,//循环播放
 				fluid: true, //流式布局
 				videoInit: true, //加载首屏
 				playbackRate: [0.5, 0.75, 1, 1.5, 2], //快进设置
