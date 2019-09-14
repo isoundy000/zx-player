@@ -22,8 +22,11 @@
 
 ### 商务合作与赞赏
 ```
-1204505056@qq.com
+邮箱  1204505056@qq.com
+QQ 1204505056
+
 如果你觉得这个项目帮助到了你，你可以赞赏一下作者:
+
 ![donate](https://raw.githubusercontent.com/chuzhixin/donate/master/qq.png)
 ![donate](https://raw.githubusercontent.com/chuzhixin/donate/master/wx.png)
 ![donate](https://raw.githubusercontent.com/chuzhixin/donate/master/zfb.png)
