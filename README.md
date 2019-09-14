@@ -59,7 +59,7 @@ Vue.component('byui-player-flv', zxPlayer.flv)
 
 ```
 
-### template完整示例
+### template完整示例(不要忘记改成自己的视频路径)
 ```
 <template>
 	<div id="app">
