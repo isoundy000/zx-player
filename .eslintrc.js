@@ -24,21 +24,21 @@ module.exports = {
     "parser": "babel-eslint"
   },
   "rules": {
-    "vue/this-in-template": "off",
-    "vue/no-template-shadow": "off",
-    "use-isnan": "off",
-    "vue/no-unused-vars": "off", //禁止未使用过的变量
-    "no-mixed-spaces-and-tabs": "off", //禁止使用 空格 和 tab 混合缩进
-    "no-multiple-empty-lines": "off", // 不允许多个空行
-    "space-in-parens": "off",
-    "no-irregular-whitespace": "off", //空格报错检查
-    "generator-star-spacing": "off",
+    "vue/this-in-template": 0,
+    "vue/no-template-shadow": 0,
+    "use-isnan": 0,
+    "vue/no-unused-vars": 0, //禁止未使用过的变量
+    "no-mixed-spaces-and-tabs": 0, //禁止使用 空格 和 tab 混合缩进
+    "no-multiple-empty-lines": 0, // 不允许多个空行
+    "space-in-parens": 0,
+    "no-irregular-whitespace": 0, //空格报错检查
+    "generator-star-spacing": 0,
     "no-mixed-operators": 0,
     "vue/max-attributes-per-line": 0,
     "no-debugger": 0, //debugger;
-    "new-cap": "off", //函数大小写;
-    "indent": "off", //缩进一致
-    "no-unused-vars": "off", //允许存在未使用的变量或函数参数;
+    "new-cap": 0, //函数大小写;
+    "indent": 0, //缩进一致
+    "no-unused-vars": 0, //允许存在未使用的变量或函数参数;
     "space-before-function-paren": 0, //括号前后空格不需一致;
     "key-spacing": 0,
     "vue/no-reserved-keys": 0,
@@ -55,7 +55,7 @@ module.exports = {
     "no-console": 0,
     "no-tabs": 0,
     "no-multi-spaces": 0,
-    "properties": false,
+    "properties": 0,
     "quotes": [
       2,
       "single",
