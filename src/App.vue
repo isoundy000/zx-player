@@ -13,17 +13,17 @@ export default {
 		return {
 			config1: {
 				id: 'mse1',
-				url: '/video/boyun.mp4'
+				url: 'video/boyun.mp4'
 			},
 			Player1: null,
 			config2: {
 				id: 'mse2',
-				url: '/video/boyun.m3u8'
+				url: 'video/boyun.m3u8'
 			},
 			Player2: null,
 			config3: {
 				id: 'mse3',
-				url: '/video/boyun.flv'
+				url: 'video/boyun.flv'
 			},
 			Player3: null
 		};
