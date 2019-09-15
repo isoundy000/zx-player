@@ -38,7 +38,7 @@ cnpm i -S zx-player
 ### mp4组件main.js全局引入
 ```
 import Vue from 'vue'
-import zxPlayer from 'zxPlayer'
+import zxPlayer from 'zx-player'
 Vue.component('byui-player-mp4', zxPlayer.mp4)
 
 ```
@@ -46,7 +46,7 @@ Vue.component('byui-player-mp4', zxPlayer.mp4)
 ### hls(m3u8)组件main.js全局引入
 ```
 import Vue from 'vue'
-import zxPlayer from 'zxPlayer'
+import zxPlayer from 'zx-player'
 Vue.component('byui-player-hls', zxPlayer.hls)
 
 ```
@@ -54,7 +54,7 @@ Vue.component('byui-player-hls', zxPlayer.hls)
 ### flv组件main.js全局引入
 ```
 import Vue from 'vue'
-import zxPlayer from 'zxPlayer'
+import zxPlayer from 'zx-player'
 Vue.component('byui-player-flv', zxPlayer.flv)
 
 ```
