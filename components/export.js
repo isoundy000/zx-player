@@ -1,6 +1,6 @@
-import mp4 from '../components/mp4'
-import hls from '../components/hls'
-import flv from '../components/flv'
+import mp4 from './mp4'
+import hls from './hls'
+import flv from './flv'
 export default {
 	mp4,
 	hls,
