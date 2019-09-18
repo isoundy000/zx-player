@@ -4,6 +4,7 @@ import zxPlayer from '../components/export.js'
 Vue.component('byui-player-mp4', zxPlayer.mp4)
 Vue.component('byui-player-flv', zxPlayer.flv)
 Vue.component('byui-player-hls', zxPlayer.hls)
+Vue.component('byui-player-custom', zxPlayer.custom)
 Vue.config.productionTip = false
 new Vue({
 	render: h => h(App),

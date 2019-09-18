@@ -3,6 +3,8 @@
 		<byui-player-mp4 :config="config1" @player="Player1 = $event" />
 		<byui-player-hls :config="config2" @player="Player2 = $event" />
 		<byui-player-flv :config="config3" @player="Player3 = $event" />
+		第四种支持视频自定义
+		<byui-player-custom :config="config4" @player="Player4 = $event" />
 	</div>
 </template>
 
@@ -25,7 +27,12 @@ export default {
 				id: 'mse3',
 				url: 'video/boyun.flv'
 			},
-			Player3: null
+			Player3: null,
+			config4: {
+				id: 'mse4',
+				url: 'video/boyun.mp4'
+			},
+			Player4: null
 		};
 	}
 };
