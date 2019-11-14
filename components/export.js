@@ -2,7 +2,7 @@ import mp4 from './mp4'
 import hls from './hls'
 import flv from './flv'
 import custom from './custom'
-export default {
+export {
 	mp4,
 	hls,
 	flv,
