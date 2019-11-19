@@ -1,11 +1,11 @@
 <template>
-	<div :id="config.id" :style="rootStyle"></div>
+  <div :id="config.id" :style="rootStyle"></div>
 </template>
 
 <script>
 import Player from 'xgplayer';
 export default {
-	name: 'custom',
+	name: 'Custom',
 	props: {
 		config: {
 			type: Object,
@@ -61,10 +61,10 @@ export default {
 	},
 	methods: {
 		init() {
-			let leftfps = function(player) {
-				let util = Player.util;
-				let btn = util.createDom('byui-leftfps', '<p class="name"><span>后退5秒</span></p>', { tabindex: 99 }, 'byui-leftfps');
-				let root = player.controls;
+			const leftfps = function(player) {
+				const util = Player.util;
+				const btn = util.createDom('byui-leftfps', '<p class="name"><span>后退5秒</span></p>', { tabindex: 99 }, 'byui-leftfps');
+				const root = player.controls;
 				root.appendChild(btn);
 				const ev = ['click', 'touchend'];
 				ev.forEach(item => {
@@ -89,10 +89,10 @@ export default {
 			};
 
 			Player.install('leftfps', leftfps);
-			let rightfps = function(player) {
-				let util = Player.util;
-				let btn = util.createDom('byui-rightfps', '<p class="name"><span>前进5秒</span></p>', { tabindex: 100 }, 'byui-rightfps');
-				let root = player.controls;
+			const rightfps = function(player) {
+				const util = Player.util;
+				const btn = util.createDom('byui-rightfps', '<p class="name"><span>前进5秒</span></p>', { tabindex: 100 }, 'byui-rightfps');
+				const root = player.controls;
 				root.appendChild(btn);
 				const ev = ['click', 'touchend'];
 				ev.forEach(item => {
@@ -121,7 +121,7 @@ export default {
 			if (this.finalConfig.url && this.finalConfig.url !== '') {
 				this.player = new Player(this.finalConfig);
 				this.$emit('player', this.player);
-				let $player = this.player;
+				const $player = this.player;
 			}
 		}
 	}

@@ -1,5 +1,5 @@
 <template>
-	<div :id="config.id" :style="rootStyle"></div>
+  <div :id="config.id" :style="rootStyle"></div>
 </template>
 
 <script>
@@ -7,7 +7,7 @@ import FlvPlayer from 'xgplayer-flv.js';
 import Player from 'xgplayer';
 
 export default {
-	name: 'flv',
+	name: 'Flv',
 	props: {
 		config: {
 			type: Object,

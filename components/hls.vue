@@ -1,5 +1,5 @@
 <template>
-	<div :id="config.id" :style="rootStyle"></div>
+  <div :id="config.id" :style="rootStyle"></div>
 </template>
 
 <script>
@@ -7,7 +7,7 @@ import HlsJsPlayer from 'xgplayer-hls.js';
 import Player from 'xgplayer';
 
 export default {
-	name: 'hls',
+	name: 'Hls',
 	props: {
 		config: {
 			type: Object,

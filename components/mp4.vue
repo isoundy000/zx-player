@@ -1,11 +1,11 @@
 <template>
-	<div :id="config.id" :style="rootStyle"></div>
+  <div :id="config.id" :style="rootStyle"></div>
 </template>
 
 <script>
 import Player from 'xgplayer';
 export default {
-	name: 'mp4',
+	name: 'Mp4',
 	props: {
 		config: {
 			type: Object,
