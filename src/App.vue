@@ -1,10 +1,10 @@
 <template>
 	<div id="app">
-		<byui-player-mp4 :config="config1" @player="Player1 = $event" />
-		<byui-player-hls :config="config2" @player="Player2 = $event" />
-		<byui-player-flv :config="config3" @player="Player3 = $event" />
+		<!-- <byui-player-mp4 :config="config1" @player="Player1 = $event" /> -->
+		<!-- <byui-player-hls :config="config2" @player="Player2 = $event" /> -->
+		<!-- <byui-player-flv :config="config3" @player="Player3 = $event" /> -->
 		第四种支持视频自定义
-		<byui-player-custom :config="config4" @player="Player4 = $event" />
+		<byui-player-custom :config="config4" @getImgSrc="getImgSrcs" @player="Player4 = $event" :jumpNum="10" />
 	</div>
 </template>
 
@@ -34,6 +34,11 @@ export default {
 			},
 			Player4: null
 		};
+	},
+	methods: {
+		getImgSrcs(src) {
+			console.log(src);
+		}
 	}
 };
 </script>
