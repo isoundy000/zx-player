@@ -1,7 +1,7 @@
 {
 	"name": "zx-player",
 	"author": "chuzhixin <1204505056@qq.com>",
-	"version": "0.6.0",
+	"version": "0.7.0",
 	"main": "./components/export.js",
 	"scripts": {
 		"serve": "vue-cli-service serve",
