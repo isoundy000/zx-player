@@ -148,6 +148,7 @@ export default {
 				const img = new Image();
 				canvas.width = this.config.width || 600;
 				canvas.height = this.config.height || 337.5;
+				const ratio = canvas.width/canvas.height
 				const root = player.controls;
 				root.appendChild(btn);
 				const array = ['click', 'touchstart'];
@@ -158,7 +159,8 @@ export default {
 						img.onload = (function() {
 							canvasCtx.drawImage(player.video, 0, 0, canvas.width, canvas.height);
 							img.setAttribute('crossOrigin', 'anonymous');
-							img.src = canvas.toDataURL('image/png').replace('image/png', 'image/octet-stream');
+							// img.src = canvas.toDataURL('image/png',ratio).replace('image/png', 'image/octet-stream');
+							img.src = canvas.toDataURL('image/png',ratio);
 							const screenShotImg = img.src.replace(/^data:image\/[^;]+/, 'data:application/octet-stream');
 							// console.log(img.src);
 							that.$emit('getImgSrc', img.src);
