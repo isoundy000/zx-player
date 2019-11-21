@@ -33,6 +33,7 @@ export default {
 		return {
 			player: null,
 			finalConfig: {
+				volume: 0,
 				autoplay: true, //自动播放
 				loop: true, //循环播放
 				fluid: true, //流式布局
