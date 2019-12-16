@@ -34,6 +34,7 @@ export default {
 			player: null,
 			finalConfig: {
 				volume: 0,
+				autoplayMuted: true, //解决浏览器非静音阻止自动播放机制
 				autoplay: true, //自动播放
 				loop: true, //循环播放
 				fluid: true, //流式布局
