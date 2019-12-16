@@ -1,30 +1,31 @@
 {
 	"name": "zx-player",
 	"author": "chuzhixin <1204505056@qq.com>",
-	"version": "0.7.0",
+	"version": "0.8.0",
 	"main": "./components/export.js",
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
-		"lint": "vue-cli-service --fix lint"
+		"lint": "eslint --fix --ext .js,.vue src",
+		"byui:update": "ncu -u"
 	},
 	"dependencies": {
-		"core-js": "^2.6.5",
-		"vue": "^2.6.10",
-		"xgplayer": "^2.1.15",
-		"xgplayer-flv.js": "^2.0.2",
-		"xgplayer-hls.js": "^1.1.8"
+		"core-js": "^3.5.0",
+		"vue": "^2.6.11",
+		"xgplayer": "^2.3.7",
+		"xgplayer-flv.js": "^2.1.1",
+		"xgplayer-hls.js": "^2.1.6"
 	},
 	"devDependencies": {
-		"@vue/cli-plugin-babel": "^3.11.0",
-		"@vue/cli-plugin-eslint": "^3.11.0",
-		"@vue/cli-service": "^3.11.0",
-		"babel-eslint": "^10.0.1",
-		"eslint": "^5.16.0",
-		"eslint-plugin-vue": "^5.0.0",
-		"node-sass": "^4.12.0",
+		"@vue/cli-plugin-babel": "^4.1.1",
+		"@vue/cli-plugin-eslint": "^4.1.1",
+		"@vue/cli-service": "^4.1.1",
+		"babel-eslint": "^10.0.3",
+		"eslint": "^6.7.2",
+		"eslint-plugin-vue": "^6.0.1",
+		"node-sass": "^4.13.0",
 		"sass-loader": "^8.0.0",
-		"vue-template-compiler": "^2.6.10"
+		"vue-template-compiler": "^2.6.11"
 	},
 	"eslintConfig": {
 		"root": true,
